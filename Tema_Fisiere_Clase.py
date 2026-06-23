@@ -116,6 +116,7 @@ class Todos:
             for task in self.todos_list:
                 if task.category == c:
                     print(task)
+
             print()
 
     def number_of_tasks(self, category):
